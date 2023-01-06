@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Cronometro</title>
+</head>
+
+<body>
+    
+    <h1>Cronometro com <br> JavaScript</h1>
+    <header>
+        <main>
+            <div class="tempo">
+                <div class="cronometro">
+                    <p id="horas">00</p>
+                </div>
+
+                <div class="cronometro">
+                    <p id="minutos">00</p>
+                </div>
+
+                <div class="cronometro">
+                    <p id="segundos">00</p>
+                </div>
+            </div>
+
+            <div class="infoTime">
+                <p>Horas</p>
+                <p>Minutos</p>
+                <p>Segundos</p>
+            </div>
+        </main>
+    </header>
+    <div class="container-1">
+        <div class="opcoes">
+            <p id="comecar" onclick="comecarParar()">Começar</p>
+            <p onclick="zerar()">Zerar</p>
+            <p onclick="marcar()">Marcar</p>
+        </div>
+    </div>
+
+    <div class="marcacoes">
+        <div class="info-marcacoes">
+            <p>Volas</p>
+        </div>
+        <div class="info-marcacoes">
+            <p> Horas</p>
+        </div>
+        <div class="info-marcacoes">
+            <p>Minutos</p>
+        </div>
+        <div class="info-marcacoes">
+            <p>Segundos</p>
+        </div>
+    </div>
+    <div id="container-2">
+        </div>  
+    </div>
+   
+    <script src="./js/control.js"></script>
+</body>
+
+</html>
